@@ -1,71 +1,38 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="keywords" content=> -->
-    <meta name="author" content="Faye Leigh">
-    <meta name="description" content="Hey there! I'm Faye. I'm a CSE student at The Ohio State University.">
-
-    <!-- Load external CSS styles -->
-    <link rel="stylesheet" href="newStyles.css">
-    <!-- Google Material Design Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
     <title>Faye Leigh</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <noscript>JavaScript Is Not Enabled!</noscript>
-
     <header>
+        <h1>Welcome to Faye Leigh's Website</h1>
         <nav>
-            <a href="#" class="logo">Faye Leigh</a>
-            <!-- Side nav info; hidden by default -->
-            <div class="info">Undergraduate Engineering Student</div>
-            <div class="info">Hi, I'm studying CSE at The Ohio State University on the AI and game development track.
-            </div>
-            <!-- Side nav menu; hidden by default -->
-            <div class="menu">
-                <a href="#home" class="menu-item caps">Home</a>
-                <a href="#about" class="menu-item small caps">About</a>
-                <a href="#projects" class="menu-item caps">Projects</a>
-                <a href="contact" class="menu-item caps">Contact</a>
-            </div>
-            <button onclick="toggleDropdown()" id="menu-button">
-                <span class="material-icons" id="menu-button-icon">menu</span>
-            </button>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-        <!-- Dropdown menu; hidden by default -->
-        <div class="drop-menu">
-            <a href="#home" class="menu-item small caps">Home</a>
-            <a href="#about" class="menu-item small caps">About</a>
-            <a href="#projects" class="menu-item small caps">Projects</a>
-            <a href="contact" class="menu-item small caps">Contact</a>
-        </div>
     </header>
     <main>
-        <section class="home" id="#home">
-            <div>
-                <a href="#" class="name">Faye Leigh</a>
-                <h1 class="title-big">Undergraduate Engineering Student</h1>
-                <p>Hi, I'm studying CSE at The Ohio State University on the AI and game development track.</p>
-                <div class="social">
-                    <a class="github-button" href="https://github.com/buttons"
-                        data-color-scheme="no-preference: dark_high_contrast; light: dark; dark: dark;"
-                        data-size="large" aria-label="Follow @buttons on GitHub"></a>
-                    <a class="github-button" href="https://github.com/buttons"
-                        data-color-scheme="no-preference: dark_high_contrast; light: dark; dark: dark;"
-                        data-size="large" aria-label="Follow @buttons on GitHub"></a>
-                </div>
-            </div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is where you can write about yourself.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Showcase your projects here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Provide your contact information here.</p>
         </section>
     </main>
-
-    <script src="newScripts.js"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <footer>
+        <p>&copy; 2025 Faye Leigh. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
