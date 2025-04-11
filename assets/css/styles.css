@@ -1,12 +1,11 @@
 /* Import Noto Sans font */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* Root Variables */
 :root {
     color-scheme: dark;
 
     /* Colors */
-    --clr-bg: #191B1B;
+    --clr-bg: #388080;
     --clr-bg-alt: #1E1E1E;
     --clr-header: #282A36;
     --clr-text: #E8E6E3;
@@ -62,3 +61,4 @@ footer {
     border-top: 1px solid var(--clr-border);
     font-family: var(--font-family);
 }
+
