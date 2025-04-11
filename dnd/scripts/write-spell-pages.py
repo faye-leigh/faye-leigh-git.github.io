@@ -3,7 +3,7 @@ import os
 
 # Load the spells data from spells.json
 input_file = "/home/faye/dev/fayeleigh.com/laptop/faye-leigh-git.github.io/dnd/data/spells.json"
-output_dir = "/home/faye/dev/fayeleigh.com/laptop/faye-leigh-git.github.io/dnd/spells"
+output_dir = "/home/faye/dev/fayeleigh.com/main/faye-leigh-git.github.io/dnd/spells"
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
@@ -19,7 +19,7 @@ html_template = """<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{spell_name}</title>
-    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
     <header>
