@@ -1,0 +1,64 @@
+/* Import Noto Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Root Variables */
+:root {
+    color-scheme: dark;
+
+    /* Colors */
+    --clr-bg: #191B1B;
+    --clr-bg-alt: #1E1E1E;
+    --clr-header: #282A36;
+    --clr-text: #E8E6E3;
+    --clr-text-alt: #F8F8F2;
+    --clr-link: #bb86fc;
+    --clr-border: #333333;
+
+    /* Font */
+    --font-family: 'Noto Sans', sans-serif;
+}
+
+/* General Styles */
+body {
+    background-color: var(--clr-bg);
+    color: var(--clr-text);
+    font-family: var(--font-family);
+}
+
+/* Header */
+header {
+    background-color: var(--clr-bg);
+}
+
+header h1, header nav a {
+    color: var(--clr-text);
+    font-family: var(--font-family);
+}
+
+/* Links */
+a {
+    color: var(--clr-link);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    background-color: var(--clr-bg);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+}
+
+/* Footer */
+footer {
+    background-color: var(--clr-bg);
+    color: var(--clr-text);
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid var(--clr-border);
+    font-family: var(--font-family);
+}
