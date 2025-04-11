@@ -93,7 +93,7 @@ for spell in spells:
     # Create a table row
     rows += f"""
     <tr>
-        <td><a href="./spells/{spell_name.lower().replace(' ', '-').replace('/', '-')}.html">{spell_name}</a></td>
+        <td><a href="./spells/{spell_name.lower().replace(' ', '-').replace('/', '-')}">{spell_name}</a></td>
         <td>{level}</td>
         <td>{school}</td>
         <td>{cast_time}</td>
