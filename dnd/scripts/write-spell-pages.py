@@ -2,8 +2,8 @@ import json
 import os
 
 # Load the spells data from spells.json
-input_file = "/home/faye/dev/fayeleigh.com/laptop/faye-leigh-git.github.io/dnd/data/spells.json"
-output_dir = "/home/faye/dev/fayeleigh.com/main/faye-leigh-git.github.io/dnd/spells"
+input_file = "dnd/data/spells.json"
+output_dir = "dnd/spells"
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
