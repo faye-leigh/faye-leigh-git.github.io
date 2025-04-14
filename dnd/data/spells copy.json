@@ -7316,7 +7316,45 @@
     "source": "Xanathar's Guide to Everything pg. 150"
   },
   {
-    "spell": "Bones of the Earth",
+    "spell": "Beast Bond",
+    "level": "",
+    "school": "",
+    "cast-time": "",
+    "range": "",
+    "components": "V, S, M",
+    "materials": "",
+    "duration": "",
+    "description": "",
+    "ritual": false,
+    "concentration": false,
+    "class": [
+      "",
+      "",
+      ""
+    ],
+    "source": "Xanathar's Guide to Everything pg. 150"
+  },
+  {
+    "spell": "Beast Bond",
+    "level": "",
+    "school": "",
+    "cast-time": "",
+    "range": "",
+    "components": "V, S, M",
+    "materials": "",
+    "duration": "",
+    "description": "",
+    "ritual": false,
+    "concentration": false,
+    "class": [
+      "",
+      "",
+      ""
+    ],
+    "source": "Xanathar's Guide to Everything pg. 150"
+  },
+  {
+    "spell": "Beast Bond",
     "level": "",
     "school": "",
     "cast-time": "",
