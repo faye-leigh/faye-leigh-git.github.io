@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 import json
 
 # Define the URL to scrape
-url = "https://dnd5e.wikidot.com/spell:bones-of-the-earth"  # Replace with the actual URL
+url = "https://dnd5e.wikidot.com/spell:catapult"  # Replace with the actual URL
 
 # Define the path to the JSON file
-json_file_path = "spells.json"
+json_file_path = "dnd/data/spells.json"
 
 def scrape_spell_data(url):
     """Scrape spell data from the given URL."""
@@ -36,7 +36,7 @@ def scrape_spell_data(url):
 
         # Extract level and school
         level, school = level_school.split("-level ")
-        level = level.strip()
+        level = level.strip()[0]  # Get the level number
         school = school.strip().capitalize()  # Capitalize the school name
 
         # Extract class list from "Spell Lists" and remove it from the description
